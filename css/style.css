@@ -1,0 +1,109 @@
+/*navigation*/
+nav {
+  background-color:#000;
+  padding-left:29px;
+  padding-right:18px;
+}
+
+nav a {
+  color:white;
+  text-decoration:none;
+}
+
+nav ul {
+  float:right;
+  margin-top:49px;
+}
+
+nav ul li {
+  display :inline;
+  margin-right: 25px;
+}
+
+/*header*/
+header {
+  background:black url(../images/header-bg.jpg)center no-repeat;
+  height:600px;
+  background-size:cover;
+  padding-top:120px;
+  color:white;
+  text-align:center;
+}
+
+.features h1 ,.mockup h1{
+  font-family: 'open sans','arial',sans-serif;
+  font-size:30px;
+  font-weight:600;
+  text-transform:uppercase;
+  margin:20px;
+}
+
+.features h2, .mockup h2 {
+  font-family: 'open sans','arial',sans-serif;
+  font-size:20px;
+  font-weight:400;
+  margin:0 auto;
+}
+
+.mockup h2 {
+  margin-bottom:30px;
+}
+
+header a, article a, .clients a{
+  color:white;
+  text-decoration:none;
+  background-color:#1bbc9b;
+  display:block;
+  width:200px;
+  margin: 0 auto;
+  padding: 20px 0;
+  margin-top:30px;
+  border-radius:5px;
+  text-transform:uppercase;
+}
+
+.features {
+  text-align:center;
+  padding:40px;
+  height:600px;
+}
+
+.features article {
+  float:left;
+  width:25%;
+  padding:10px;
+}
+
+.mockup {
+  clear:both;
+  background:black url(../images/mockup-bg.jpg)center no-repeat;
+  text-align:center;
+  padding:40px;
+  color:white;
+  background-attachment:fixed;
+  height:600px;
+}
+
+.clients, footer{
+  text-align:center;
+  background-color:#1bbc9b;
+  padding:50px;
+  color:white;
+}
+
+.clients ul, footer ul{
+  padding-left:0;
+}
+
+.clients ul li, footer ul li{
+  display:inline;
+}
+
+.clients a {
+  background:white;
+  color:#1bbc9b;
+}
+
+footer {
+  background: black;
+}
